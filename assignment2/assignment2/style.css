@@ -1,0 +1,86 @@
+html {
+  margin: 5px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#banner {
+  background: linear-gradient(to right, #4c4c4c, #000000);
+  padding: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.contact-details {
+  text-align: right;
+  font-size: large;
+}
+
+.menu a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #00ff00;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+
+#sidebar {
+  background-color: #c4bcbc;
+  width: 200px;
+  padding: 10px;
+  float: right;
+}
+
+#sidebar h3 {
+  margin-top: 0;
+}
+
+#sidebar ul {
+  padding: 0;
+  margin: 2px;
+}
+
+#sidebar ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+#sidebar ul li a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+  background-color: grey;
+  color: #0f7b0f;
+}
+
+footer {
+  background-color: #4c4c4c;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
