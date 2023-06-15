@@ -1,0 +1,80 @@
+1.Does JavaScript pass parameter by value or by reference?
+Ans:JS has types such as numbers, strings, booleans which are passed by value, 
+while objects like arrays and functions are used as reference.
+
+2.What is the difference between “undefined” and “not defined” in JavaScript?
+Ans:The value "undefined" makes the absence or lack of a value.In JS that is automatically assigned to variables which are declared but not assigned.
+
+Ans:"Not defined" a variable or identifier that's not declared or not accessible. 
+While trying to use a variable or access a property it won't be declared.
+
+3. Predict the output and explain.
+for (var i = 0; i < 5; i++) {
+	(function(x) {
+    	setTimeout(function() { console.log(x); },  1000 );
+    })(i);
+}
+
+OUTPUT:
+0
+1
+2
+3
+4
+
+4. What will be the output? Explain
+
+var x= 5;
+function check(){
+  y = 10;
+  console.log(x);
+  var x =10;
+}
+function check2(){  
+  console.log(y);
+}
+check();
+check2();
+
+OUTPUT:
+undefined
+10
+
+
+ 
+Q: What is the value of -'34'+10
+A: the value of -'34' + 10 is -24
+
+Q: If you have var y = 1, x = y = typeof x; What is the value of x?
+A: the value of x is "undefined"
+
+Q: for var a = (2, 3, 5); what is the value of a?
+A:  the value of a will be 5
+
+Q: for var a = (1, 5 - 1) * 2 what is the value of a?
+A:the value of a will be 8
+
+Q: What is the value of !'bang'
+A:  the value of !'bang' is false
+
+Q: What is the value of Math.max([2,3,4,5]);
+A: 5
+
+Q: What is the output of 3 instanceof Number
+A: the output is false
+
+Q: What is the output of null == undefined
+A: null == undefined evaluates to true
+
+Q: What is the output of 42..toString()
+A: 42
+
+Q: What is the output of 4.2..toString
+A: 4.2
+
+Q: What is the output of 42 . toString()
+A: 42
+
+Q: What is the output of typeof(NaN)
+A:number
+
